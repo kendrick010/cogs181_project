@@ -1,14 +1,16 @@
 import os
 import opendatasets as od
 
+KAGGLE = 'kaggle.json'
 DATASET = 'https://www.kaggle.com/datasets/chandlertimm/unified'
 
 def get_dataset():
-    os.chdir('./dataset')
-
-    # Skip download if dataset exists
-    if not(os.path.isdir('unified')):
-        od.download(DATASET)
+    od.download(DATASET)
 
 if __name__ == "__main__":
-    get_dataset()
+    os.chdir('./dataset')
+
+    if os.path.isfile(KAGGLE):
+        get_dataset()
+
+    else: print('kaggle.json not found in /dataset directory')

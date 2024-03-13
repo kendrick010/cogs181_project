@@ -1,12 +1,20 @@
 name: ECE176_PROJECT
+
 channels:
   - pytorch
   - conda-forge
   - defaults
+
 dependencies:
   - python==3.9.5
   - pip
+  - ipykernel
+  - jupyter
   - numpy
+  - pandas
+  - pillow
   - matplotlib
   - pytorch::pytorch
   - torchvision
+  - pip:
+    - opendatasets
