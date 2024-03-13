@@ -1,0 +1,12 @@
+name: ECE176_PROJECT
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9.5
+  - pip
+  - numpy
+  - matplotlib
+  - pytorch::pytorch
+  - torchvision
