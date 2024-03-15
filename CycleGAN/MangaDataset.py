@@ -21,9 +21,6 @@ class MangaDataset(Dataset):
         color_panel = Image.open(color_panel_path).convert('RGB')
         gray_panel = Image.open(gray_panel_path).convert('RGB')
 
-        color_panel = self.remove_transparency(color_panel)
-        gray_panel = self.remove_transparency(gray_panel)
-
         if self.transforms_:
             color_panel = self.transforms_(color_panel)
             gray_panel = self.transforms_(gray_panel)
@@ -32,10 +29,3 @@ class MangaDataset(Dataset):
 
     def __len__(self):
         return min(len(self.color), len(self.gray))
-    
-    @staticmethod
-    def remove_transparency(image):
-        background = Image.new('New_RGB', image.size, (255, 255, 255))
-        background.paste(image, mask=image.split()[3])
-
-        return background
