@@ -163,3 +163,8 @@ cython_debug/
 kaggle.json
 /dataset
 !/dataset/.gitkeep
+/CycleGAN_3/outputs
+/CycleGAN_3/models/disch.pth.tar
+/CycleGAN_3/models/discz.pth.tar
+/CycleGAN_3/models/genh.pth.tar
+/CycleGAN_3/models/genz.pth.tar
