@@ -34,3 +34,8 @@ python get_dataset.py
 Restart and run all cells in the `train_test_split_dataset.ipynb` notebook
 
 Configure the global variables in the `CycleGAN_Manga_Colorization.ipynb` notebook and run.
+
+## Credit
+
+This was adapted from a CycleGANs model that originally mapped horse images to zebra images,
+https://medium.com/@chilldenaya/cyclegan-introduction-pytorch-implementation-5b53913741ca
