@@ -162,8 +162,5 @@ cython_debug/
 .DS_Store
 
 kaggle.json
-/dataset
+dataset/*
 !/dataset/.gitkeep
-
-/models
-!/models/.gitkeep
