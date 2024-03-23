@@ -17,7 +17,7 @@ This project was ran both on Datahub (UCSD) and locally. To install and run this
 
 ```
 conda env create -f environment.yml
-conda activate ECE176_PROJECT
+conda activate COGS181_PROJECT
 ```
 
 ## Dataset
