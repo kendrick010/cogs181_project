@@ -1,5 +1,8 @@
 # ECE 176 Final Project
 
+> [!NOTE]  
+> 5-minute Demo Video: https://youtu.be/JooMsFRhvXY
+
 ## Abstract
 
 Colorization is a widely time-consuming and expensive process for Japanese manga.
