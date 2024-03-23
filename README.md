@@ -1,7 +1,7 @@
-# ECE 176 Final Project
+# COGS 181 Final Project
 
 > [!NOTE]  
-> 5-minute Demo Video: https://youtu.be/JooMsFRhvXY
+> I worked on this project/idea for another class I was enrolled concurrently as of Winter Quarter 2024, ECE 176: Introduction to Deep Learning & Applications, that also had a deep learning final project. https://github.com/kendrick010/ece176_project
 
 ## Abstract
 
